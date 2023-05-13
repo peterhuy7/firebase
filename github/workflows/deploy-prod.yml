@@ -6,7 +6,7 @@ on:
       - master
     # Optionally configure to run only for specific files. For example:
     # paths:
-    # - "website/**"
+    # - "website/thichlamblog"
 
 jobs:
   deploy_live_website:
