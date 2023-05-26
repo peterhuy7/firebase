@@ -1,4 +1,4 @@
-name: CI
+name: github cd for firebase
 
 on:
   push:
@@ -12,8 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-     - uses: actions/checkout@master
-     - uses: actions/setup-node@master
+     -name: Trigger deploy in firebas
        env:
             CI: false
        with:
